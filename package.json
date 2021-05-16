@@ -1,0 +1,37 @@
+{
+  "name": "wdio-email-reporter",
+  "version": "1.0.0",
+  "description": "A webdriverio reporter library that sends an email with test execution report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutomationReddy/wdio-email-reporter.git"
+  },
+  "keywords": [
+    "wdio",
+    "wdio-reporter",
+    "webdriverio",
+    "email-reporter"
+  ],
+  "author": "Vinod Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AutomationReddy/wdio-email-reporter/issues"
+  },
+  "homepage": "https://github.com/AutomationReddy/wdio-email-reporter#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/reporter": "^7.5.7",
+    "@wdio/spec-reporter": "^7.5.7",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.5.7",
+    "nodemailer": "^6.6.0"
+  }
+}
